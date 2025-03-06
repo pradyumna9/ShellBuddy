@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class PropertyController {
+
     private final ProductService productService;
 
     public PropertyController(ProductService productService) {
