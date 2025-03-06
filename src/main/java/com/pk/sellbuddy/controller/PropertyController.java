@@ -12,6 +12,7 @@ public class PropertyController {
 
     private final ProductService productService;
 
+
     public PropertyController(ProductService productService) {
         this.productService = productService;
     }
